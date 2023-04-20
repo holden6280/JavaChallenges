@@ -192,7 +192,6 @@ public class Challenges {
         return "The difference between " + firstNumber + " and " + secondNumber + " is: " + diff;
 
     }
-
     public String convertToUppercase(){
 
         Scanner theScanner = new Scanner(System.in);
@@ -203,7 +202,6 @@ public class Challenges {
         return "You provided " + theWord + " and we converted it to: " + theWord.toUpperCase();
 
     }
-
     //convertToLowercase - works like convertToUppercase and return some text that shows us the word is converted
     public String convertToLowercase(){
 
@@ -215,7 +213,6 @@ public class Challenges {
         return "You provided " + theWord + " and we converted it to: " + theWord.toLowerCase();
 
     }
-
     //lengthOfWord - return sth that lets us know how long the word provided was/is
     public String length(){
 
@@ -227,5 +224,68 @@ public class Challenges {
         return "The character count for " + text + " is " + text.length();
 
     }
+    public void countToTen(){
+        for(int i = 1; i <= 10; i++){
+            //run some code
+            System.out.println(i);
+        }
+    }
+
+    /*
+    public void CountToTenWhile(){
+    int i = 1;
+    while (i <= 10){
+        System.out.println(i);
+        i++;
+    }
+    */
+
+    //make a method that counts from 10 to 1
+    public void countBackwardsFromTen(){
+
+        for(int i = 10; i >= 1; i--){
+            //run some code
+            System.out.println(i);
+        }
+    }
+
+    //make a method that counts from 1 - 100 but in increments of 2
+    public void countInIncrementsOfTwo(){
+
+        for(int i = 1; i <= 100; i+=2){
+            //run some code
+            System.out.println(i);
+        }
+    }
+
+    //make a method that counts from 0 - 50 but only prints even numbers
+    public void zeroToFiftyEven(){
+
+//        int i = 0;
+//        while(i <= 50){
+//
+//            //hey code, is i even
+//            if(i % 2 != 0){
+//                System.out.println(i);
+//            }
+//
+//            i++;
+//        }
+
+        for(int i=0; i <= 50; i++){
+
+            if(i % 2 != 0){
+                System.out.println(i);
+            }
+
+        }
+
+    }
+    /* Occam's Razor
+        for(int i = 0; i <= 50; i+=2){
+            //run some code
+            System.out.println(i);}}*/
+
+
 
 }

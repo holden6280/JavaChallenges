@@ -47,11 +47,19 @@ public class JavaChallengesApp {
 
         System.out.println(challenges.convertToUppercase());
 
-        */
-
         System.out.println(challenges.convertToLowercase());
 
         System.out.println(challenges.length());
+
+        challenges.countToTen();
+
+        challenges.countToTenWhile();
+
+        challenges.countBackwardsFromTen();
+
+        challenges.countInIncrementsOfTwo();
+
+        challenges.zeroToFiftyEven();*/
 
     }
 }
